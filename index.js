@@ -2,7 +2,7 @@ function takeANumber(lineArr, custName){
 
   lineArr.push(custName)
 
-  return `Welcome, ${custName}. You are number ${katzDeliLine.length} in line.`
+  return `Welcome, ${custName}. You are number ${lineArr.length} in line.`
 
 }
 
