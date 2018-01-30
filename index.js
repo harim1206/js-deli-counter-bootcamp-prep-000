@@ -1,8 +1,15 @@
-function takeANumber(lineArr, custName){
 
-  lineArr.push(custName)
+var counter = 1
 
-  return `Welcome, ${custName}. You are number ${lineArr.length} in line.`
+function takeANumber(lineArr){
+
+  lineArr.push(counter)
+
+  //array [1]
+
+  counter++
+
+  return `Welcome, You are number ${counter} in line.`
 
 }
 
