@@ -36,7 +36,7 @@ function currentLine(lineArr){
         str+= `${i+1}. ${lineArr[i]}, `
       }
     }
-    
+
     return `The line is currently: ${str}`
   }
 }
