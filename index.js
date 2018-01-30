@@ -19,13 +19,13 @@ function nowServing(lineArr){
   if(lineArr.length === 0){
 
     return `There is nobody waiting to be served!`
-    
-  }else{
-    var newCust = lineArr[0]
-    
-    lineArr.shift()
 
-    return `Currently serving ${newCust}.`
+  }else{
+    //var newCust = lineArr[0]
+    //newCust will be a integer at index 0
+    
+
+    return `Currently serving ${lineArr.shift()}.`
   }
 
 }
