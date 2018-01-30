@@ -9,7 +9,7 @@ function takeANumber(lineArr){
 
   counter++
 
-  return `Welcome, You are number ${lineArr.length} in line.`
+  return `Welcome, You are number ${lineArr[lineArr.length-1]} in line.`
 
 }
 
