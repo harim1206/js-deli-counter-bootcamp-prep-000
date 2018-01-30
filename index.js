@@ -1,6 +1,6 @@
 function takeANumber(lineArr, custName){
 
-  katzDeliLine.push(custName)
+  lineArr.push(custName)
 
   return `Welcome, ${custName}. You are number ${katzDeliLine.length} in line.`
 
