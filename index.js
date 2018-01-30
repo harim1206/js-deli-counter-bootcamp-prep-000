@@ -11,7 +11,7 @@ function nowServing(lineArr){
 
   if(lineArr.length === 0){
 
-    return "There is nobody waiting to be served!"
+    return `There is nobody waiting to be served!`
   }else{
     var newCust = lineArr[0]
     lineArr.shift()
