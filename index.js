@@ -26,7 +26,7 @@ function currentLine(lineArr){
   var str = ""
 
   if(lineArr.length===0){
-    
+
     return `The line is currently empty.`
   }else{
     for(var i=0; i<lineArr.length; i++){
@@ -36,6 +36,7 @@ function currentLine(lineArr){
         str+= `${i+1}. ${lineArr[i]}, `
       }
     }
+    
     return `The line is currently: ${str}`
   }
 }
